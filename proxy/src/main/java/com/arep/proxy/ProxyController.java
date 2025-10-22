@@ -17,13 +17,13 @@ public class ProxyController {
         String base;
         if (number == 1){
             number = 2;
-            base = "http://localhost:8081";
+            base = "http://ec2-3-95-64-158.compute-1.amazonaws.com:8080";
 
         } else{
             number = 1;
-            base = "http://localhost:8082";
+            base = "http://ec2-3-88-101-229.compute-1.amazonaws.com:8080";
         }
-        String fullbase = base + "?value=" + n;
+        String fullbase = base + "/secuence?value=" + n;
         return HttpConnection.get(fullbase);
 
     }

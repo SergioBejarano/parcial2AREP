@@ -14,6 +14,7 @@ public class HttpConnection {
     public static String get(String GET_URL) throws IOException {
 
         URL obj = new URL(GET_URL);
+        System.out.println("URL: " + GET_URL);
         HttpURLConnection con = (HttpURLConnection) obj.openConnection();
         con.setRequestMethod("GET");
         con.setRequestProperty("User-Agent", USER_AGENT);

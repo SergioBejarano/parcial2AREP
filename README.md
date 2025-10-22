@@ -1,3 +1,8 @@
+# VIDEO
+
+
+https://github.com/user-attachments/assets/8e7a6000-7df0-4c42-95bb-ab858eb3c423
+
 
 ## Instancias lanzadas EC2 para math service
 

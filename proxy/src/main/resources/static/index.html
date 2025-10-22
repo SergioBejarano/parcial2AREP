@@ -6,22 +6,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<h1>Form with GET</h1>
-<form action="/hello">
-<label for="name">Name:</label><br>
-<input type="text" id="name" name="name" value="John"><br><br>
+<h1>Lucas Sequence</h1>
+<form action="/mathservice">
+<label for="value">Value ( n >= 2) :</label><br>
+<input type="text" id="value" name="value" value=""><br><br>
 <input type="button" value="Submit" onclick="loadGetMsg()">
 </form>
 <div id="getrespmsg"></div>
 <script>
 function loadGetMsg() {
-let nameVar = document.getElementById("name").value;
+let n = document.getElementById("name").value;
 const xhttp = new XMLHttpRequest();
 xhttp.onload = function() {
 document.getElementById("getrespmsg").innerHTML =
 this.responseText;
 }
-xhttp.open("GET", "/hello?name="+nameVar);
+xhttp.open("GET", "/secuence?value="+n);
 xhttp.send();
 }
 </script>

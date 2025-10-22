@@ -40,3 +40,27 @@ Y luego, se realiza otra solicitud viendo que ya es otro servidor el que respond
 
 <img width="962" height="190" alt="image" src="https://github.com/user-attachments/assets/01ecb8d4-b061-4a65-abec-b7c8d3ed5fe0" />
 
+
+## Funcionamiento final ya con las tres instancias EC2
+
+
+<img width="1677" height="691" alt="image" src="https://github.com/user-attachments/assets/f3db43fd-5eba-449c-ac1d-5d40f59e70c5" />
+
+En la anterior imagen se ve que la IP del proxy es 54.91.124.91.
+
+Se accede a la URL para hacer prueba:
+
+<img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/2f163dfe-169c-4ec1-bb3b-3b36c266db71" />
+
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/2de0e5a0-b756-49e1-b965-140eb287753f" />
+
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/93aa79a1-cf72-4892-870c-832e9589f11c" />
+
+Proxy funciona correctamente:
+
+<img width="970" height="158" alt="image" src="https://github.com/user-attachments/assets/657b9665-340f-4b1c-a001-5f62e8f0064f" />
+
+
+
